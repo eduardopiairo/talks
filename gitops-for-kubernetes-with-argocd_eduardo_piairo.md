@@ -1,9 +1,8 @@
 GitOps For Kubernetes with ArgoCD
-
 =================================================
 
 * Speaker   : Eduardo Piairo
-* Available : first day, second day, third day
+* Available : second day, third day
 * Length    : 30 minutes
 * Language  : English
 
