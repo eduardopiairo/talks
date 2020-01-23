@@ -3,13 +3,13 @@ GitOps For Kubernetes with ArgoCD
 
 * Speaker   : Eduardo Piairo
 * Available : second day, third day
-* Length    : 30 minutes
+* Length    : 60 minutes
 * Language  : English
 
 Description
 -----------
 
-This talk is about how I added the missing piece on my companies deployment pipeline - the deliver step - using ArgoCD. ArgoCD is delivery tool for Kubernetes that allow a declarative approach by comparing the definition of the resource in the source control repository with the current state of the same resource in the kubernetes cluster. I will describe how ArgoCD allowed to automate a "simple" decision: to deploy or not to deploy. 
+This talk is about how I added the missing piece on my company deployment pipeline - the deliver step - using ArgoCD. ArgoCD is delivery tool for Kubernetes that allow a declarative approach by comparing the definition of the resource in the source control repository with the current state of the same resource in the kubernetes cluster. I will describe how ArgoCD allowed to automate a "simple" decision: to deploy or not to deploy. 
 
 Speaker Bio
 -----------
@@ -27,9 +27,9 @@ Links
 Extra Information
 -----------------
 
-When I joined my company there was missing a step in the deployment pipeline: the delivery step. The delivery process was manual meaning that someone (me) would need to create/upgrade the applications on the Kubernetes cluster. The urgent goal was to automate this process and for that we introduced ArgoCD in our pipeline.
+When I joined my company there was a missing step in the deployment pipeline: the delivery step. The delivery process was manual - meaning that someone (me) would need to create/upgrade the applications on the Kubernetes cluster. The urgent goal was to automate this process and for that we introduced ArgoCD in our pipeline.
 ArgoCD allows a declarative approach by comparing the definition of the resource in the source control repository with the definition of the same resource in the kubernetes cluster. In simple words, it compares the definition in the git repository with the current state in the kubernetes cluster and give the diff.
-Whit this "simple" capability is possible to integrate in the pipeline (in a automated way) an importante decision: deploy or not to deploy a specific definition in a target environment.
+Whit this "simple" capability it was possible to integrate in the pipeline (in a automated way) an important decision: deploy or not to deploy a specific definition in a target environment.
 
 
 * https://www.youtube.com/watch?v=0YihV2kfb24
